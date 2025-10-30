@@ -355,10 +355,3 @@ inputNumber($('.input-number'));
  }
 }(jQuery));
 
-$(document).ready(function () {
-  $("buttonclick").ready(function){
-    $("buttonclick").fadeToggle(600);
-    $("productListBestSeller").fadeIn(500);
-    $("productListBestSeller").fadeOut(500);
-  }
-});
